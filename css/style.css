@@ -4,6 +4,8 @@
 @import "status-bar.css";
 @import "loginform.css";
 @import "nav-bar.css";
+@import "screen-header.css";
+@import "friends-screen.css";
 
 body {
   font-family: "Open Sans", sans-serif;
