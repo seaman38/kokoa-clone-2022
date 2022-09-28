@@ -1,5 +1,5 @@
 .alarm-display {
-  background-color: rgb(245, 245, 245);
+  background-color: #fafafa;
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -8,12 +8,12 @@
   font-weight: 500;
 }
 
-.alarm-display span {
-  background-color: rgb(187, 187, 187);
-  width: 17px;
-  height: 17px;
-  text-align: center;
-  font-weight: 600;
-  color: aliceblue;
-  border-radius: 8.5px;
+.alarm-display i {
+  color: rgb(187, 187, 187);
+  margin-right: 5px;
+}
+
+.fa-chevron-right {
+  margin-left: 15px;
+  padding-top: 3px;
 }
