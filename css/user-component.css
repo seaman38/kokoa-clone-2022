@@ -5,9 +5,8 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  padding-left: 15px;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0px 15px 0px 15px;
 }
 
 .user-component__title {
@@ -15,12 +14,14 @@
   font-weight: 600;
 }
 
+.channel-number,
 .user-component__subtitle {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 5px;
 }
 
+.user-component__channelpic,
 .user-component__avatar {
   height: 70px;
   width: 70px;
@@ -29,7 +30,9 @@
   margin-top: 10px;
 }
 
-.user-component__column {
+.user-component__column:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: ;
 }
 
 .user-component__channelpic {
@@ -42,10 +45,34 @@
   display: flex;
   margin: 8px 0px;
   justify-content: space-between;
+  padding: 0px 15px;
 }
 
 .channel {
   font-size: 10px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column__group1 {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__title2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fa-chevron-right {
+  margin-left: 3px;
+}
+
+.fa-sm {
+  color: rgba(0, 0, 0, 0.3);
 }

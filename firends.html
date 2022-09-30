@@ -8,6 +8,7 @@
     <title>Firend Screen-Kokoa Talk</title>
   </head>
   <body>
+    <!-- 상단 작업표시줄 -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -23,6 +24,7 @@
       </div>
     </div>
 
+    <!-- friends 섹션 -->
     <header class="screen-header">
       <h1 class="header__title">Friends</h1>
       <div class="header__icons">
@@ -32,12 +34,14 @@
       </div>
     </header>
 
+    <!-- alm 섹션 -->
     <div class="alarm-display">
       <i class="fas fa-info-circle"></i>
       <p>Friends' Names Display</p>
       <i class="fas fa-chevron-right fa-sm"></i>
     </div>
 
+    <!-- 메인 화면 섹션 -->
     <div class="user-component">
       <div class="user-component__column">
         <img src="imgsrc/1565847973838.jpg" class="user-component__avatar" />
@@ -50,19 +54,25 @@
         <div class="channel">Channel</div>
         <i class="fas fa-chevron-up fa-sm"></i>
       </div>
+      <!-- 두번째 메인 -->
       <div class="user-component__column">
-        <img
-          src="imgsrc/20200425_122744.jpg"
-          class="user-component__channelpic"
-        />
-        <div class="user-component__title2">
-          <h4 class="nameofchannel">Channel</h4>
+        <div class="column__group1">
+          <img
+            src="imgsrc/20200425_122744.jpg"
+            class="user-component__channelpic"
+          />
+          <div class="user-component__title2">
+            <h4 class="nameofchannel">Channel</h4>
+          </div>
         </div>
-        <span class="channel-number">2</span>
-        <i class="fas fa-chevron-right fa-sm"></i>
+        <div class="column__group2">
+          <span class="channel-number">2</span>
+          <i class="fas fa-chevron-right fa-sm"></i>
+        </div>
       </div>
     </div>
 
+    <!-- 하단네비게이션바 -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
