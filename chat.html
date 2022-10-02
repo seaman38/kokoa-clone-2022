@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Firend Screen-Kokoa Talk</title>
+    <title>chat screen-Kokoa Talk</title>
   </head>
   <body>
     <!-- 상단 작업표시줄 -->
@@ -24,52 +24,37 @@
       </div>
     </div>
 
-    <!-- friends 섹션 -->
+    <!-- chat 섹션 -->
     <header class="screen-header">
-      <h1 class="header__title">Friends</h1>
+      <h1 class="header__title">Chats</h1>
       <div class="header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
     <!-- alm 섹션 -->
-    <div class="alarm-display">
+    <!-- <div class="alarm-display">
       <i class="fas fa-info-circle"></i>
       <p>Friends' Names Display</p>
       <i class="fas fa-chevron-right fa-sm"></i>
-    </div>
+    </div> -->
 
     <main class="friend-screen">
       <!-- 메인 화면 섹션 -->
-      <div class="user-component">
+      <div class="chat-component">
         <div class="user-component__column">
           <img src="imgsrc/1565847973838.jpg" class="user-component__avatar" />
           <div class="user-component__text">
             <h4 class="user-component__title">seaman</h4>
-            <!-- <h6 class="user-component__subtitle">SEXSEX!!</h6> -->
+            <h6 class="user-component__subtitle">SEXSEX!!</h6>
           </div>
         </div>
-        <div class="channel__nav">
-          <div class="channel">Channel</div>
-          <i class="fas fa-chevron-up fa-sm"></i>
-        </div>
-        <!-- 두번째 메인 -->
-        <div class="user-component__column2">
-          <div class="column__group1">
-            <img
-              src="imgsrc/20200425_122744.jpg"
-              class="user-component__channelpic"
-            />
-            <div class="user-component__title2">
-              <h4 class="nameofchannel">Channel</h4>
-            </div>
-          </div>
-          <div class="column__group2">
-            <span class="channel-number">2</span>
-            <i class="fas fa-chevron-right fa-sm"></i>
-          </div>
+        <div class="time-and-alm">
+          <div class="time">25:80</div>
+          <div class="red-circ-alm">1</div>
         </div>
       </div>
     </main>
@@ -79,13 +64,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="firends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html">
             <span class="nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i
+            <i class="fas fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">

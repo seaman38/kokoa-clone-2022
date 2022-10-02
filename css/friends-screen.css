@@ -17,3 +17,7 @@
   margin-left: 15px;
   padding-top: 3px;
 }
+
+.friend-screen {
+  padding: 0px var(--horizontal-space);
+}
