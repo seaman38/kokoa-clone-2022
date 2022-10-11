@@ -36,3 +36,48 @@
   color: rgba(0, 0, 0, 0.3);
   font-size: 15px;
 }
+
+.open-chat__titlebox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.open-chat__title {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.first-chatroom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-chatroom__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-chatroom__title :first-child {
+  font-size: 20px;
+}
+
+.members {
+  display: flex;
+  align-items: center;
+}
+
+.admin-photo {
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  margin-right: 10px;
+}
+
+.chat-room__photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
