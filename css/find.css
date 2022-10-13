@@ -50,23 +50,36 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.first-chatroom {
+.first-chatroom,
+.second-chatroom {
   display: flex;
   justify-content: space-between;
+}
+
+.second-chatroom {
+  margin-top: 30px;
 }
 
 .first-chatroom__title {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.first-chatroom__title :first-child {
+.first-title {
   font-size: 20px;
+  padding-top: 15px;
+}
+
+.second-title {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .members {
   display: flex;
   align-items: center;
+  padding-bottom: 7px;
 }
 
 .admin-photo {
@@ -80,4 +93,8 @@
   height: 100px;
   width: 100px;
   border-radius: 20px;
+}
+
+.members__active {
+  color: palevioletred;
 }
